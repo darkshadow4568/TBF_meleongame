@@ -18,7 +18,7 @@ position :absolute; */
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <div id="unity-container" style="position: absolute; width: auto; height: 100%  aspect-ratio: 16 / 9; overflow: hidden;">
+    <div id="unity-container" style="position: absolute; width: auto; height: auto  aspect-ratio: 16 / 9; overflow: hidden;">
       <canvas id="unity-canvas" width=1080 height=1920 style="width: auto; height: 100%"></canvas>
     </div>
     <div id="loading-cover" style="display:none;">
@@ -34,11 +34,11 @@ position :absolute; */
     <script>
       const hideFullScreenButton = "s";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebTest.loader.js";
+      const loaderUrl = buildUrl + "/260305.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebTest.data",
-        frameworkUrl: buildUrl + "/WebTest.framework.js",
-        codeUrl: buildUrl + "/WebTest.wasm",
+        dataUrl: buildUrl + "/260305.data",
+        frameworkUrl: buildUrl + "/260305.framework.js",
+        codeUrl: buildUrl + "/260305.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "darkert",
         productName: "Melongame",
